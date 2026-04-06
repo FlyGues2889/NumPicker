@@ -14,7 +14,7 @@
       {
         "title": "Num Picker",
         "width": 800,
-        "heiht": 600,
+        "height": 600,
         "minWidth": 800,
         "minHeight": 600,
         "decorations": false
