@@ -62,8 +62,8 @@ jobs:
       - name: Set EXE path
         run: |
           $version = "${{ github.ref_name }}".Replace('v', '')
-          $exePath = "./src-tauri/target/x86_64-pc-windows-msvc/release/RandomNum-You.exe"
-          $destName = "RandomNum-You-green-$version-windows-x64.exe"
+          $exePath = "./src-tauri/target/x86_64-pc-windows-msvc/release/NumPicker.exe"
+          $destName = "NumPicker-green-$version-windows-x64.exe"
           Copy-Item -Path "$exePath" -Destination "$destName"
           echo "EXE_PATH=$destName" >> $env:GITHUB_ENV
 
